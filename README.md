@@ -10,9 +10,17 @@ This package is available via Composer:
 ```json
 {
     "require": {
-        "dmitrymomot/laravel-segmentio-wrapper": "1.*"
+        "dmitrymomot/laravel-segmentio-wrapper": "dev-master"
     }
 }
+```
+
+After that run a composer update, then in app.php add:
+```php
+'providers' => array(
+	...,
+	'DmitryMomot\LaravelSegmentioWrapper\LaravelSegmentioWrapperServiceProvider',
+),
 ```
 
 ## License

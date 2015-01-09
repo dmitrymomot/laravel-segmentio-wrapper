@@ -18,5 +18,5 @@
             "DmitryMomot\\LaravelSegmentioWrapper\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
