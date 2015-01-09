@@ -1,5 +1,6 @@
 <?php namespace DmitryMomot\LaravelSegmentioWrapper;
 
+use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 
 class LaravelSegmentioWrapperServiceProvider extends ServiceProvider {
