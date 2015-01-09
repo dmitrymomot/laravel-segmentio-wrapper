@@ -5,7 +5,8 @@
         {
             "name": "Dmitry Momot",
             "email": "mail@dmomot.com",
-            "url": "http://dmitrymomot.com"
+            "homepage": "http://dmitrymomot.com",
+            "role": "Developer"
         }
     ],
     "require": {
