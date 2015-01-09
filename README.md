@@ -1,2 +1,1 @@
-# laravel-segmentio-wrapper
-Segment.io wrapper for Laravel 4
+# Segment.io wrapper for Laravel 4
