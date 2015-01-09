@@ -14,3 +14,7 @@ This package is available via Composer:
     }
 }
 ```
+
+## License
+
+The MIT License (MIT). Please see [License File](https://github.com/dmitrymomot/laravel-segmentio-wrapper/blob/master/LICENSE) for more information.
