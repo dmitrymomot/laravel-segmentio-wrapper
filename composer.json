@@ -1,6 +1,7 @@
 {
     "name": "dmitrymomot/laravel-segmentio-wrapper",
     "description": "Segment.io wrapper for Laravel 4",
+    "license": "MIT",
     "authors": [
         {
             "name": "Dmitry Momot",
