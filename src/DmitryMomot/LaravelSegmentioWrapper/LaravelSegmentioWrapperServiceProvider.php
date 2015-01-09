@@ -1,4 +1,4 @@
-<?php namespace Dmitrymomot\LaravelSegmentioWrapper;
+<?php namespace DmitryMomot\LaravelSegmentioWrapper;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -19,6 +19,9 @@ class LaravelSegmentioWrapperServiceProvider extends ServiceProvider {
 	public function boot()
 	{
 		$this->package('dmitrymomot/laravel-segmentio-wrapper');
+		
+        // Auto create app alias with boot method.
+        $loader = AliasLoader::getInstance()->alias('Analytics', 'DmitryMomot\LaravelSegmentioWrapper\Facades\Analytics');
 	}
 
 	/**
@@ -28,7 +31,10 @@ class LaravelSegmentioWrapperServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		//
+		$this->app['segmentio_wrapper'] = $this->app->share(function($app)
+        {
+            return new Analytics;
+        });
 	}
 
 	/**
