@@ -4,6 +4,9 @@ use Segment;
 
 class Analytics extends Segment {
 
+	/**
+	 * @return void
+	 */
 	public function __construct()
 	{
 		$config = Config::get('laravel-segmentio-wrapper::config');
