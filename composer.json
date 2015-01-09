@@ -1,0 +1,21 @@
+{
+    "name": "dmitrymomot/laravel-segmentio-wrapper",
+    "description": "Segment.io wrapper for Laravel 4",
+    "authors": [
+        {
+            "name": "Dmitry Momot",
+            "email": "mail@dmomot.com",
+            "url": "http://dmitrymomot.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "DmitryMomot\\LaravelSegmentioWrapper\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
